@@ -2,19 +2,23 @@
 
 <template>
   <header>
-    <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+    <b-navbar toggleable="lg" type="light" variant="info">
+      <b-navbar-brand class = "AT" href="#">Advanced Topics</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+          <b-nav-item href="#">Projects</b-nav-item>
+          <b-nav-item href="#">Course overview</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
+
+     
         <b-navbar-nav class="ml-auto">
+          <!-- Search button and input
+
           <b-nav-form>
             <b-form-input
               size="sm"
@@ -25,6 +29,8 @@
               >Search</b-button
             >
           </b-nav-form>
+        -->
+      
 
           <b-nav-item-dropdown text="Lang" right>
             <b-dropdown-item href="#">EN</b-dropdown-item>
@@ -47,21 +53,31 @@
   </header>
 
   <main>
-    this is in the main! this is a large set of text!
-    <div class="wrapper"></div>
+    Advanced Topics For Computer Science
+    <div class="wrapper"> A website for CS!!!</div>
   </main>
 </template>
 
 <style scoped>
-/* header {
-  line-height: 4;
+header {
+  line-height: 2;
+  
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+main{
+  text-align: center;
+  margin-top:20px;
+  font-size: 36px;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
+.wrapper{
+      font-size: 30px;
+  }
+.AT{
+  margin-left: 20px;
+}
+/*
 @media (min-width: 1024px) {
   header {
     display: flex;
