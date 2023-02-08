@@ -1,5 +1,4 @@
 <script setup>
-
 </script>
 
 
@@ -45,9 +44,7 @@
 
   <main>
     Advanced Topics For Computer Science
-    <div class="wrapper"> Welcome to advanced topics in computer science, a </div>
-    <div>
-    <a href="2023Projects\">2023</a> </div>
+    <div class="wrapper"> woah!</div>
   </main>
 
 

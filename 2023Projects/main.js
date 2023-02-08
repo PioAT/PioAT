@@ -1,7 +1,7 @@
 import { createApp } from "vue";
-import App from "./App.vue";
+import App from "./2023Projects.vue";
 
-import "./assets/main.css";
+import "../src/assets/main.css";
 
 import Vue from "vue";
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
