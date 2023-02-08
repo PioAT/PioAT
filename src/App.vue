@@ -1,8 +1,14 @@
-<script setup></script>
+<script setup>
+
+
+
+
+</script>
+
 
 <template>
   <header>
-    <b-navbar toggleable="lg" type="light" variant="info">
+    <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand class = "AT" href="#">Advanced Topics</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -30,23 +36,11 @@
             >
           </b-nav-form>
         -->
-      
-
-          <b-nav-item-dropdown text="Lang" right>
-            <b-dropdown-item href="#">EN</b-dropdown-item>
-            <b-dropdown-item href="#">ES</b-dropdown-item>
-            <b-dropdown-item href="#">RU</b-dropdown-item>
-            <b-dropdown-item href="#">FA</b-dropdown-item>
-          </b-nav-item-dropdown>
-
-          <b-nav-item-dropdown right>
+   
             <!-- Using 'button-content' slot -->
             <template #button-content>
               <em>User</em>
             </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-          </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -54,14 +48,31 @@
 
   <main>
     Advanced Topics For Computer Science
-    <div class="wrapper"> A website for CS!!!</div>
+    <div class="wrapper"> Welcome to advanced topics in computer science, a </div>
   </main>
+
+
+
+
+
+
+  <div>
+    <!-- Website INSIDE the website
+  <b-embed
+    type="iframe"
+    aspect="16by9"
+    src= https://www.google.com/
+    allowfullscreen
+  ></b-embed>
+    -->
+  <a href = "https://www.google.com"> google </a>
+</div>
+
 </template>
 
 <style scoped>
 header {
   line-height: 2;
-  
 }
 
 main{
@@ -72,11 +83,20 @@ main{
 }
 
 .wrapper{
-      font-size: 30px;
+      text-align: left;
+      margin-left: 50px;
+      font-size: 20px;
   }
 .AT{
   margin-left: 20px;
 }
+
+.navbar.navbar-dark.bg-dark{
+    background-color: #2f4ac4!important;
+ }
+
+ 
+
 /*
 @media (min-width: 1024px) {
   header {
