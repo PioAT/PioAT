@@ -3,13 +3,14 @@
 .wrapper{
   text-align: left;
   margin-left: 50px;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 main{
   text-align: center;
   margin-top:20px;
-  font-size: 36px;
+  font-size: 50px;
+  font-weight: 900;
   font-family: 'Trebuchet MS', sans-serif;
 }
 .AT{
@@ -21,6 +22,14 @@ header{
 .bar{
   color: aqua;
 }
+.navbar.navbar-dark.bg-dark{
+    background-color: #1e49e5!important;
+}
+.navbar{
+  height: 100px;
+}
+
+
 
 
 /* #app {
