@@ -1,9 +1,18 @@
 @import "./base.css";
 
-.wrapper{
+.description{
   text-align: left;
-  margin-left: 50px;
+  margin-left: 200px;
   font-size: 20px;
+  padding: 20px;
+  margin-right: 200px;
+}
+.description2{
+  text-align: left;
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 20px;
+  margin-right: 200px;
 }
 
 main{
@@ -11,22 +20,26 @@ main{
   margin-top:20px;
   font-size: 50px;
   font-weight: 900;
+  padding: 10px;
   font-family: 'Trebuchet MS', sans-serif;
 }
 .AT{
   margin-left: 30px;
 }
 header{
-  height: 50px;
+  height: 100px;
 }
 .bar{
   color: aqua;
 }
 .navbar.navbar-dark.bg-dark{
-    background-color: #1e49e5!important;
+
+    background-color: #1b2ded!important;
 }
 .navbar{
+
   height: 100px;
+ 
 }
 
 
