@@ -14,10 +14,10 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item-dropdown text="Projects">
-          <b-dropdown-item href="#">2022</b-dropdown-item>
-          <b-dropdown-item href="#">2023</b-dropdown-item>
+          <b-dropdown-item href="\2023Projects\">2023</b-dropdown-item>
           <b-dropdown-item href="#">2024</b-dropdown-item>
           <b-dropdown-item href="#">2025</b-dropdown-item>
+          <b-dropdown-item href="#">2026</b-dropdown-item>
          </b-nav-item-dropdown>
         
         </b-navbar-nav>
