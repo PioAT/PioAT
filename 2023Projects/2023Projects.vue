@@ -7,8 +7,8 @@ import Navbar from "~/src/components/Navbar.vue";
   <Navbar/>
 
   <main>
-    Advanced Topics For Computer Science
-    <img src = "\src\images\Ryan Wang 2022.jpg">
+    Advanced Topics For Computer Science 
+     <!--<img src = "/images/Ryan Wang 2022.jpg"> -->
   </main>
 
 
