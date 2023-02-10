@@ -35,13 +35,14 @@ header{
 .navbar.navbar-dark.bg-dark{
 
     background-color: #1b2ded!important;
+    position: fixed;
 }
 .navbar{
 
   height: 100px;
+  width: 100%;
  
 }
-
 
 
 

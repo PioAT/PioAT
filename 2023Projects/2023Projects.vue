@@ -8,8 +8,13 @@ import Navbar from "~/src/components/Navbar.vue";
 
   <main>
     Advanced Topics For Computer Science
-    <img src = "\src\images\Ryan Wang 2022.jpg">
+    
   </main>
+
+  
+  <img src = "\src\images\Ryan Wang 2022.jpg">
+
+
 
 
 
@@ -18,13 +23,14 @@ import Navbar from "~/src/components/Navbar.vue";
 <style scoped>
 
  img {
+  display:block;
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
  }
 
- 
+
 
 
 </style>

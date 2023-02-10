@@ -6,8 +6,8 @@
 
 <template>
   <header>
-    <b-navbar toggleable="lg" type="dark" variant="dark" style = "background-color: aqua;" class = "navbar" >
-      <b-navbar-brand class = "AT" href="#">Advanced Topics</b-navbar-brand>
+    <b-navbar sticky toggleable="lg" type="dark" variant="dark" style = "background-color: aqua;" class = "navbar" >
+      <b-navbar-brand class = "AT" href="\">Advanced Topics</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
