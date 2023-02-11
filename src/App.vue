@@ -9,7 +9,7 @@ import Navbar from "~/src/components/Navbar.vue";
   <Navbar/>
 
 
-  <main>
+  <h1>
     Advanced Topics For Computer Science
     <div class="description"> Welcome to advanced topics in computer science, an innovative course offered 
        at Pioneer High School. Each year, students enroll in this class for the opportunity to 
@@ -20,8 +20,8 @@ import Navbar from "~/src/components/Navbar.vue";
       to quantum computing to game design, advanced topics has it all!
     </div>
 
-  </main>
-
+  </h1>
+  
   <div>
   <a href = "https://www.google.com"> google </a>
   </div>
